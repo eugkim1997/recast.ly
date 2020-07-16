@@ -10,7 +10,7 @@ class App extends React.Component {
     this.state = {
       defaultVideo: exampleVideoData[0],
       videoList: exampleVideoData
-    }
+    };
   }
 
   onListItemTitleClick (clickedVideo) {
@@ -39,7 +39,7 @@ class App extends React.Component {
       </div>
     );
   }
-};
+}
 
 // In the ES6 spec, files are "modules" and do not share a top-level scope
 // `var` declarations will only exist globally where explicitly defined
